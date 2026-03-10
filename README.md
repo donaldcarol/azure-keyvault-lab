@@ -1,58 +1,24 @@
-Overview
+# Azure Key Vault Terraform Lab
 
+This project demonstrates how to provision an Azure Key Vault using Terraform.
 
+## Resources created
 
-Terraform lab for provisioning Azure Key Vault
+- Azure Resource Group
+- Azure Key Vault
 
+## Terraform features used
 
+- azurerm provider
+- resource dependencies
+- data sources
+- outputs
+- tagging strategy
 
-Resources created
+## How to deploy
 
-
-
-Resource Group
-
-
-
-Azure Key Vault
-
-
-
-Access Policy
-
-
-
-Demo Secret
-
-
-
-Skills demonstrated
-
-
-
-Infrastructure as Code with Terraform
-
-
-
-Azure Key Vault deployment
-
-
-
-Identity-based access configuration
-
-
-
-Secret management basics
-
-
-
-Notes
-
-
-
-demo only
-
-
-
-secrets in Terraform state are not recommended for production
+```bash
+terraform init
+terraform plan
+terraform apply
 
